@@ -5,7 +5,7 @@
 | File | Description |
 |---|---|
 | `product-brief.md` | Full product brief — problem framing, user definition, v1 scope, architecture |
-| `flow-diagram.png` | *(Optional — add if you sketch a wireframe)* |
+| `flow-diagram.png` | Flow diagram showing data sources to user delivery |
 
 ---
 
