@@ -1,8 +1,8 @@
 # Product Brief: Marketing Performance Intelligence Tool
 **Version:** 1.0 (Scoping Document)  
-**Author:** [Your Name]  
+**Author:** Siva Suriyan M  
 **Date:** May 2026  
-**Status:** Draft — Task 1 Submission
+**Status:** Draft - Task 1 Submission
 
 ---
 
@@ -169,36 +169,36 @@ Three things build trust in v1:
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                     DATA SOURCES                          │
+│                     DATA SOURCES                         │
 │   Paid Search │ Paid Social │ Web Analytics │ (others)   │
-│         (whichever platforms the team already uses)       │
+│         (whichever platforms the team already uses)      │
 └────────┬──────┴──────┬──────┴───────┬────────────────────┘
          │             │              │
   Native connectors / structured CSV exports (no new infra)
          │             │              │
          ▼             ▼              ▼
 ┌──────────────────────────────────────────────────────────┐
-│            BI DASHBOARD LAYER                             │
-│                                                           │
+│            BI DASHBOARD LAYER                            │
+│                                                          │
 │  Power BI     → if team uses Microsoft 365 (preferred)   │
 │  Looker Studio → if team uses Google Workspace           │
-│                                                           │
-│  - Brand filter          - Week-on-week comparison        │
-│  - Channel KPIs          - Data freshness timestamp       │
-│  - Top/bottom performer flag                              │
+│                                                          │
+│  - Brand filter          - Week-on-week comparison       │
+│  - Channel KPIs          - Data freshness timestamp      │
+│  - Top/bottom performer flag                             │
 └──────────────────────┬───────────────────────────────────┘
                        │
           ┌────────────┴────────────┐
           ▼                         ▼
 ┌──────────────────┐     ┌──────────────────────┐
-│  Internal View   │     │   Client Share View   │
-│  (Full access)   │     │   (Shareable link)    │
-│                  │     │   Read-only, filtered │
+│  Internal View   │     │   Client Share View  │
+│  (Full access)   │     │   (Shareable link)   │
+│                  │     │   Read-only, filtered│
 └──────────────────┘     └──────────────────────┘
                                     │
                          ┌──────────▼───────────┐
-                         │  Weekly Email Digest  │
-                         │  (Manual, templated)  │
+                         │  Weekly Email Digest │
+                         │  (Manual, templated) │
                          └──────────────────────┘
 ```
 
