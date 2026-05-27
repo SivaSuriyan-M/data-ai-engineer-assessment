@@ -49,7 +49,7 @@ If the internal analyst does not trust and use the tool, it will not survive. Th
 Clients receive a **read-only, shareable view** of their own brand's performance. They do not interact with the tool directly in v1 — they receive a link or a periodic report.
 
 **Why not build for clients first:**  
-Clients in the Indian market (Tamil Nadu context specifically) rarely check dashboards proactively. They respond to what is pushed to them — typically via email or WhatsApp. The dashboard serves as the source of truth; the email digest is the delivery mechanism to the client.
+Clients in the Indian market rarely check dashboards proactively. They respond to what is pushed to them — typically via email or WhatsApp. The dashboard serves as the source of truth; the email digest is the delivery mechanism to the client.
 
 ---
 
