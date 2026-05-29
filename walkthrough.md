@@ -1,8 +1,8 @@
 # Assessment Walkthrough
 
-**Candidate:** [Your Name]  
+**Candidate:** Siva Suriyan M 
 **Date:** May 2026  
-**Role:** Data & AI Product Engineer — Tacheon / Smacient
+**Role:** Data & AI Product Engineer — Tacheon
 
 ---
 
@@ -13,7 +13,7 @@ When I received the brief, the first thing I did was read it fully before touchi
 1. The only hard constraint was that the team would not change their tools
 2. The assessors wanted to see thinking, not just output — commit history, decisions, trade-offs
 
-So I started the GitHub repo on Day 1 before writing anything, committed regularly as I worked, and wrote commit messages that described what I changed and why.
+So I started the GitHub repo on Day 1 before writing anything, committed regularly as I worked and wrote commit messages that described what I changed and why.
 
 ---
 
@@ -110,7 +110,7 @@ Raw NewsAPI data tells you what articles exist. The derived fields tell you what
 
 The pipeline ran successfully on first attempt except for one error — the service account was missing the `BigQuery Job User` role. Data Editor allows reading and writing data, but loading data requires creating a BigQuery job, which needs a separate permission. I added the role, re-ran, and 57 rows loaded successfully.
 
-This is exactly the kind of thing you encounter in a real engineering role — documentation says one thing, actual permissions require something slightly different.
+This is exactly the kind of thing encounter in a real engineering role — documentation says one thing, actual permissions require something slightly different.
 
 ### Production Thinking
 
@@ -131,7 +131,7 @@ On the pipeline side — switch to incremental loads. Right now we fetch the las
 
 For the transform layer at real scale — a single Python script running on one machine won't cut it. That's where something like Databricks or Dataflow comes in for parallel processing. I've worked with Databricks, Synapse, and ADLS in other contexts — the pattern is the same, just the execution layer changes.
 
-I want to be honest here — my hands-on pipeline experience has been in Microsoft Fabric, which I've actually worked with practically. That gave me a solid grasp of the underlying concepts — incremental loads, partitioning, orchestration, error handling — and helped me understand how similar tools like ADF, Databricks, and Synapse fit together conceptually, even though I haven't worked on those hands-on yet.
+I want to be honest here — my hands-on experience has been in Microsoft Fabric, which I've actually worked with practically. That gave me a solid grasp of the underlying concepts — incremental loads, partitioning, orchestration, error handling — and helped me understand how similar tools like ADF, Databricks and Synapse fit together conceptually, even though I haven't worked on those hands-on yet.
 
 Python-based pipelines on GCP were new to me going into this assessment. But because the core concepts translate across stacks, picking it up wasn't starting from zero. Building this end to end in 4 days gave me a much more concrete understanding of how GCP approaches the same problems I've seen solved in Fabric.
 
