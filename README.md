@@ -22,17 +22,20 @@ over 4 days:
 ## Repo Structure
 ```
 data-ai-engineer-assessment/
+├── .gitignore       ← excludes credentials and venv from GitHub
+├── README.md        ← overview of both tasks and repo navigation          
+├── walkthrough.md   ← decisions, trade-offs and reflection on both tasks
 ├── task1-product-scoping/
-│   ├── README.md          ← decisions and trade-offs
+│   ├── README.md
 │   ├── product-brief.md   ← full product brief
 │   └── flow-diagram.png   ← architecture flow diagram
 └── task2-pipeline/
-├── README.md          ← setup and production thinking
-├── pipeline.py        ← main pipeline script
-├── config.py          ← all parameters centralised
-├── requirements.txt   ← dependencies
-└── queries/
-└── summary.sql    ← BigQuery summary queries
+    ├── README.md          ← setup and production thinking
+    ├── pipeline.py        ← main pipeline script
+    ├── config.py          ← all parameters centralised
+    ├── requirements.txt   ← dependencies
+    └── queries/
+        └── summary.sql    ← BigQuery summary queries
 ```
 ---
 
